@@ -32,10 +32,13 @@ from .lifescience import (
     get_training_med_ed_lead,
     get_hr_business_partner,
     get_finance_controller,
-    get_risk_management_lead,
+    get_risk_management_lead
 )
 
+from .role import Role
+
 __all__ = [
+    "Role",
     "get_asset_team_lead",
     "get_program_launch_pm",
     "get_clinical_development_lead",
